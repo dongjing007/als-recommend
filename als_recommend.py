@@ -64,11 +64,11 @@ best_model = model.bestModel
 
 # 获取最佳模型
 print("**Best Model**")
-# # Print "Rank"
+# Print "Rank"
 print("  Rank:", best_model._java_obj.parent().getRank())
-# # Print "MaxIter"
+# Print "MaxIter"
 print("  MaxIter:", best_model._java_obj.parent().getMaxIter())
-# # Print "RegParam"
+# Print "RegParam"
 print("  RegParam:", best_model._java_obj.parent().getRegParam())
 
 # 查看预测值
